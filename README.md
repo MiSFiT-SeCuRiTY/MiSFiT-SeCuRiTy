@@ -85,3 +85,14 @@
 ```
 
 > **"Curiosity drives the research. Building turns knowledge into capability."**
+
+
+## 🧠 Philosophy
+
+I believe that the best way to understand technology is to **question it, break it, and rebuild it**.
+
+I don't chase shortcuts. I prefer to understand how things work beneath the surface, experiment with ideas, and turn curiosity into something useful.
+
+For me, cybersecurity is not just about finding vulnerabilities — it's about **thinking differently, learning continuously, and building with purpose**.
+
+> *“The deeper you understand the system, the harder it becomes to surprise you.”*
