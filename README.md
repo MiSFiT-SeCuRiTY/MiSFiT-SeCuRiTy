@@ -135,6 +135,4 @@ and using that knowledge to build something stronger.
 
 <br><br>
 
-<strong>☕ Support MiSFiT KiNG</strong><br> <sub>Help support my cybersecurity research, open-source projects & experiments.</sub>
-
 </p>
