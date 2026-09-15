@@ -1,0 +1,626 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="900"
+     height="420"
+     viewBox="0 0 900 420">
+
+  <defs>
+
+    <!-- Background -->
+    <linearGradient id="bg"
+                    x1="0"
+                    y1="0"
+                    x2="0"
+                    y2="1">
+
+      <stop offset="0%"
+            stop-color="#080d14"/>
+
+      <stop offset="100%"
+            stop-color="#020408"/>
+
+    </linearGradient>
+
+
+    <!-- Grid -->
+    <pattern id="grid"
+             width="30"
+             height="30"
+             patternUnits="userSpaceOnUse">
+
+      <path d="M30 0H0V30"
+            fill="none"
+            stroke="#14232d"
+            stroke-width="1"/>
+
+    </pattern>
+
+
+    <!-- Scanner glow -->
+    <filter id="glow">
+
+      <feGaussianBlur
+        stdDeviation="4"
+        result="blur"/>
+
+      <feMerge>
+
+        <feMergeNode in="blur"/>
+
+        <feMergeNode in="SourceGraphic"/>
+
+      </feMerge>
+
+    </filter>
+
+
+    <!-- Target glow -->
+    <filter id="targetGlow">
+
+      <feGaussianBlur
+        stdDeviation="6"
+        result="blur"/>
+
+      <feMerge>
+
+        <feMergeNode in="blur"/>
+
+        <feMergeNode in="SourceGraphic"/>
+
+      </feMerge>
+
+    </filter>
+
+  </defs>
+
+
+  <!-- ================================================= -->
+  <!-- BACKGROUND -->
+  <!-- ================================================= -->
+
+  <rect width="900"
+        height="420"
+        rx="14"
+        fill="url(#bg)"/>
+
+  <rect width="900"
+        height="420"
+        rx="14"
+        fill="url(#grid)"
+        stroke="#536773"/>
+
+
+  <!-- ================================================= -->
+  <!-- HEADER -->
+  <!-- ================================================= -->
+
+  <text x="28"
+        y="38"
+        fill="#e7eef2"
+        font-family="monospace"
+        font-size="23"
+        font-weight="bold">
+
+    CYBER HUNTER
+
+  </text>
+
+
+  <text x="700"
+        y="37"
+        fill="#7f929e"
+        font-family="monospace"
+        font-size="13">
+
+    MISFiT // SCAN
+
+  </text>
+
+
+  <text x="28"
+        y="65"
+        fill="#728995"
+        font-family="monospace"
+        font-size="12">
+
+    THREAT DETECTION SYSTEM // ACTIVE SCANNING
+
+  </text>
+
+
+  <!-- ================================================= -->
+  <!-- RADAR AREA -->
+  <!-- ================================================= -->
+
+  <g transform="translate(450 205)">
+
+
+    <!-- Outer radar -->
+
+    <circle r="125"
+            fill="#050a0f"
+            stroke="#405a66"
+            stroke-width="2"/>
+
+
+    <!-- Radar rings -->
+
+    <circle r="95"
+            fill="none"
+            stroke="#304a56"
+            stroke-width="1"/>
+
+    <circle r="65"
+            fill="none"
+            stroke="#304a56"
+            stroke-width="1"/>
+
+    <circle r="35"
+            fill="none"
+            stroke="#304a56"
+            stroke-width="1"/>
+
+
+    <!-- Crosshair -->
+
+    <line x1="-135"
+          y1="0"
+          x2="135"
+          y2="0"
+          stroke="#334e5b"
+          stroke-width="1"/>
+
+    <line x1="0"
+          y1="-135"
+          x2="0"
+          y2="135"
+          stroke="#334e5b"
+          stroke-width="1"/>
+
+
+    <!-- Diagonal guides -->
+
+    <line x1="-95"
+          y1="-95"
+          x2="95"
+          y2="95"
+          stroke="#233943"
+          stroke-width="1"/>
+
+    <line x1="-95"
+          y1="95"
+          x2="95"
+          y2="-95"
+          stroke="#233943"
+          stroke-width="1"/>
+
+
+    <!-- Scanner beam -->
+
+    <path d="M0 0 L0 -125 A125 125 0 0 1 82 -94 Z"
+          fill="#9ccbd6"
+          opacity=".12"
+          filter="url(#glow)">
+
+      <animateTransform
+        attributeName="transform"
+        type="rotate"
+        from="0"
+        to="360"
+        dur="3s"
+        repeatCount="indefinite"/>
+
+    </path>
+
+
+    <!-- Scanner line -->
+
+    <line x1="0"
+          y1="0"
+          x2="0"
+          y2="-125"
+          stroke="#dce9ed"
+          stroke-width="3"
+          filter="url(#glow)">
+
+      <animateTransform
+        attributeName="transform"
+        type="rotate"
+        from="0"
+        to="360"
+        dur="3s"
+        repeatCount="indefinite"/>
+
+    </line>
+
+  </g>
+
+
+  <!-- ================================================= -->
+  <!-- TARGET 01 -->
+  <!-- ================================================= -->
+
+  <g filter="url(#targetGlow)">
+
+    <circle cx="345"
+            cy="145"
+            r="5"
+            fill="#d85c6a">
+
+      <animate
+        attributeName="r"
+        values="4;9;4"
+        dur="1s"
+        repeatCount="indefinite"/>
+
+    </circle>
+
+  </g>
+
+
+  <!-- Target box -->
+
+  <g fill="none"
+     stroke="#d85c6a"
+     stroke-width="2">
+
+    <path d="
+      M320 120
+      H340
+      M320 120
+      V140
+
+      M370 120
+      H350
+      M370 120
+      V140
+
+      M320 170
+      H340
+      M320 170
+      V150
+
+      M370 170
+      H350
+      M370 170
+      V150"/>
+
+
+    <animateTransform
+      attributeName="transform"
+      type="scale"
+      values="1;1.08;1"
+      dur="1s"
+      repeatCount="indefinite"
+      additive="sum"/>
+
+  </g>
+
+
+  <!-- ================================================= -->
+  <!-- TARGET 02 -->
+  <!-- ================================================= -->
+
+  <circle cx="570"
+          cy="250"
+          r="5"
+          fill="#9bbdc7"
+          opacity=".8">
+
+    <animate
+      attributeName="opacity"
+      values=".2;1;.2"
+      dur="1.7s"
+      repeatCount="indefinite"/>
+
+  </circle>
+
+
+  <!-- ================================================= -->
+  <!-- TARGET 03 -->
+  <!-- ================================================= -->
+
+  <circle cx="520"
+          cy="135"
+          r="4"
+          fill="#9bbdc7">
+
+    <animate
+      attributeName="opacity"
+      values=".2;1;.2"
+      dur="2.2s"
+      repeatCount="indefinite"/>
+
+  </circle>
+
+
+  <!-- ================================================= -->
+  <!-- TARGET INFORMATION -->
+  <!-- ================================================= -->
+
+  <g font-family="monospace"
+     font-size="11"
+     fill="#a9bac3">
+
+    <text x="385"
+          y="135">
+
+      TARGET_01
+
+    </text>
+
+    <text x="385"
+          y="150">
+
+      VECTOR: 042.17
+
+    </text>
+
+    <text x="385"
+          y="165">
+
+      THREAT: HIGH
+
+    </text>
+
+  </g>
+
+
+  <!-- ================================================= -->
+  <!-- SCAN PATH -->
+  <!-- ================================================= -->
+
+  <path d="M350 150
+           C420 120
+           500 170
+           570 250"
+        fill="none"
+        stroke="#526d79"
+        stroke-width="1"
+        stroke-dasharray="5 7"
+        opacity=".6"/>
+
+
+  <!-- Moving trace -->
+
+  <circle r="4"
+          fill="#d85c6a"
+          filter="url(#glow)">
+
+    <animateMotion
+      dur="2.5s"
+      repeatCount="indefinite"
+      path="M350 150
+            C420 120
+            500 170
+            570 250"/>
+
+  </circle>
+
+
+  <!-- ================================================= -->
+  <!-- LEFT TERMINAL PANEL -->
+  <!-- ================================================= -->
+
+  <rect x="65"
+        y="100"
+        width="230"
+        height="145"
+        rx="6"
+        fill="#05090d"
+        stroke="#3d5662"/>
+
+
+  <text x="82"
+        y="125"
+        fill="#dbe7ec"
+        font-family="monospace"
+        font-size="13">
+
+    SCAN_ENGINE
+
+  </text>
+
+
+  <text x="82"
+        y="150"
+        fill="#80949f"
+        font-family="monospace"
+        font-size="11">
+
+    INITIALIZING...
+
+  </text>
+
+
+  <text x="82"
+        y="172"
+        fill="#9db1ba"
+        font-family="monospace"
+        font-size="11">
+
+    NETWORK ........ OK
+
+  </text>
+
+
+  <text x="82"
+        y="192"
+        fill="#9db1ba"
+        font-family="monospace"
+        font-size="11">
+
+    PACKET STREAM ... OK
+
+  </text>
+
+
+  <text x="82"
+        y="212"
+        fill="#d85c6a"
+        font-family="monospace"
+        font-size="11">
+
+    THREAT .......... 01
+
+  </text>
+
+
+  <!-- ================================================= -->
+  <!-- RIGHT PANEL -->
+  <!-- ================================================= -->
+
+  <rect x="650"
+        y="100"
+        width="185"
+        height="145"
+        rx="6"
+        fill="#05090d"
+        stroke="#3d5662"/>
+
+
+  <text x="668"
+        y="125"
+        fill="#dbe7ec"
+        font-family="monospace"
+        font-size="13">
+
+    TARGET STATUS
+
+  </text>
+
+
+  <text x="668"
+        y="153"
+        fill="#899da7"
+        font-family="monospace"
+        font-size="11">
+
+    TRACKING
+
+  </text>
+
+
+  <text x="755"
+        y="153"
+        fill="#d85c6a"
+        font-family="monospace"
+        font-size="11">
+
+    LOCKED
+
+  </text>
+
+
+  <text x="668"
+        y="177"
+        fill="#899da7"
+        font-family="monospace"
+        font-size="11">
+
+    CONFIDENCE
+
+  </text>
+
+
+  <text x="755"
+        y="177"
+        fill="#dbe7ec"
+        font-family="monospace"
+        font-size="11">
+
+    97%
+
+  </text>
+
+
+  <text x="668"
+        y="201"
+        fill="#899da7"
+        font-family="monospace"
+        font-size="11">
+
+    TRACE
+
+  </text>
+
+
+  <text x="755"
+        y="201"
+        fill="#dbe7ec"
+        font-family="monospace"
+        font-size="11">
+
+    ACTIVE
+
+  </text>
+
+
+  <!-- ================================================= -->
+  <!-- BOTTOM HUD -->
+  <!-- ================================================= -->
+
+  <text x="30"
+        y="335"
+        fill="#a9bac3"
+        font-family="monospace"
+        font-size="14">
+
+    SCAN: ACTIVE
+
+  </text>
+
+
+  <text x="210"
+        y="335"
+        fill="#a9bac3"
+        font-family="monospace"
+        font-size="14">
+
+    TARGETS: 03
+
+  </text>
+
+
+  <text x="390"
+        y="335"
+        fill="#a9bac3"
+        font-family="monospace"
+        font-size="14">
+
+    THREAT LEVEL: HIGH
+
+  </text>
+
+
+  <text x="675"
+        y="335"
+        fill="#d85c6a"
+        font-family="monospace"
+        font-size="14">
+
+    ● TRACKING
+
+    <animate
+      attributeName="opacity"
+      values="1;.25;1"
+      dur=".8s"
+      repeatCount="indefinite"/>
+
+  </text>
+
+
+  <!-- ================================================= -->
+  <!-- FOOTER -->
+  <!-- ================================================= -->
+
+  <text x="30"
+        y="385"
+        fill="#607580"
+        font-family="monospace"
+        font-size="11">
+
+    [ RADAR ] [ THREAT DETECTION ] [ TARGET TRACKING ] [ SVG SECURITY VISUAL ]
+
+  </text>
+
+</svg>
