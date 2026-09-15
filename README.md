@@ -114,16 +114,21 @@ def hacker_mindset():
 
 <p align="center">
 
-### 💭 Quote
+## 💭 Quote
 
-> **“The strongest systems are built by those who understand how they can fail.”**
+<div align="center">
 
-<em>
-Security begins with curiosity — understanding how systems work, discovering where they can break,
+<blockquote>
+<strong>“The strongest systems are built by those who understand how they can fail.”</strong>
+</blockquote>
+
+<p>
+Security begins with curiosity — understanding how systems work, discovering where they can break,<br>
 and using that knowledge to build something stronger.
-</em>
-
 </p>
+
+</div>
+
 
 <p align="center">
 
