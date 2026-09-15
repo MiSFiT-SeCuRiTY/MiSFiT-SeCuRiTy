@@ -87,12 +87,27 @@
 > **"Curiosity drives the research. Building turns knowledge into capability."**
 
 
-## 🧠 Philosophy
+## 💡 Philosophy
 
-I believe that the best way to understand technology is to **question it, break it, and rebuild it**.
+```python
+def hacker_mindset():
+    """
+    Every system has a weakness.
+    Every weakness has a lesson.
+    Every lesson creates a better engineer.
+    """
+    principles = {
+        "question_everything": True,
+        "understand_the_internals": True,
+        "think_beyond_the_obvious": True,
+        "turn_ideas_into_tools": True,
+        "learn_from_every_failure": True
+    }
 
-I don't chase shortcuts. I prefer to understand how things work beneath the surface, experiment with ideas, and turn curiosity into something useful.
-
-For me, cybersecurity is not just about finding vulnerabilities — it's about **thinking differently, learning continuously, and building with purpose**.
-
-> *“The deeper you understand the system, the harder it becomes to surprise you.”*
+    while True:
+        investigate()
+        experiment()
+        break_things()
+        build_again()
+        evolve()
+```
