@@ -24,10 +24,10 @@
 
 <p align="center">
 
-  <img src="https://komarev.com/ghpvc/?username=MiSFiT-SeCuRiTY&label=PROFILE%20VIEWS&color=00e5ff&style=for-the-badge&labelColor=111827" />
+  <img src="https://komarev.com/ghpvc/?username=MiSFiT-SeCuRiTY&label=◉%20VIEWS&color=00f5ff&style=for-the-badge&labelColor=0b1020" />
 
-  <img src="https://img.shields.io/github/followers/MiSFiT-SeCuRiTY?label=FOLLOWERS&color=a855f7&style=for-the-badge&labelColor=111827" />
+  <img src="https://img.shields.io/github/followers/MiSFiT-SeCuRiTY?label=◉%20FOLLOWERS&color=7c3aed&style=for-the-badge&labelColor=0b1020" />
 
-  <img src="https://img.shields.io/github/stars/MiSFiT-SeCuRiTY?label=STARS&color=ff3366&style=for-the-badge&labelColor=111827" />
+  <img src="https://img.shields.io/github/stars/MiSFiT-SeCuRiTY?label=★%20STARS&color=f43f5e&style=for-the-badge&labelColor=0b1020" />
 
 </p>
