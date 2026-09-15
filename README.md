@@ -20,4 +20,13 @@
        width="900"
        alt="Cyber Hunter">
 </p>
-<img src="https://komarev.com/ghpvc/?username=MiSFiT-SeCuRiTY&label=PROFILE%20VIEWS&color=0e75b6&style=flat" /> <img src="https://img.shields.io/github/followers/MiSFiT-SeCuRiTY?label=FOLLOWERS&style=flat&color=0e75b6" /> <img src="https://img.shields.io/github/stars/MiSFiT-SeCuRiTY?label=STARS&style=flat&color=0e75b6" />
+
+<p align="center">
+
+  <img src="https://komarev.com/ghpvc/?username=MiSFiT-SeCuRiTY&label=VIEWS&color=0b0f14&style=for-the-badge&labelColor=05080c" />
+
+  <img src="https://img.shields.io/github/followers/MiSFiT-SeCuRiTY?label=FOLLOWERS&color=0b0f14&style=for-the-badge&labelColor=05080c" />
+
+  <img src="https://img.shields.io/github/stars/MiSFiT-SeCuRiTY?label=STARS&color=0b0f14&style=for-the-badge&labelColor=05080c" />
+
+</p>
