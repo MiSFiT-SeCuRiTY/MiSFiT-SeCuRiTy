@@ -111,3 +111,16 @@ def hacker_mindset():
         build_again()
         evolve()
 ```
+
+<p align="center">
+
+### 💭 Quote
+
+> **“The strongest systems are built by those who understand how they can fail.”**
+
+<em>
+Security begins with curiosity — understanding how systems work, discovering where they can break,
+and using that knowledge to build something stronger.
+</em>
+
+</p>
