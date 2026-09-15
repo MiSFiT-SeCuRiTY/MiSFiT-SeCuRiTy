@@ -33,13 +33,6 @@
 </p>
 
 
-# 👨‍💻 MiSFiT-SeCuRiTY
-
-### `MiSFiT` · `SeCuRiTy`
-
-Cybersecurity Researcher · Security Tool Developer · Programmer
-
-
 <p align="center">
 
 <a href="https://github.com/MiSFiT-SeCuRiTY">
