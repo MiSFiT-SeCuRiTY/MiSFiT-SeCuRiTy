@@ -124,3 +124,17 @@ and using that knowledge to build something stronger.
 </em>
 
 </p>
+
+<p align="center">
+
+<a href="https://buymeacoffee.com/misfitking">
+
+<img src="https://img.shields.io/badge/☕%20BUY%20ME%20A%20COFFEE-FFDD00?style=for-the-badge&logo=buymeacoffee&logoColor=000000&labelColor=FFDD00" height="55">
+
+</a>
+
+<br><br>
+
+<strong>☕ Support MiSFiT KiNG</strong><br> <sub>Help support my cybersecurity research, open-source projects & experiments.</sub>
+
+</p>
