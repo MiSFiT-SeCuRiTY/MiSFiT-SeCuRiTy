@@ -60,3 +60,28 @@
 </a>
 
 </p>
+
+## 🧠 About Me
+
+```text
+┌──[ MiSFiT-SeCuRiTY ]──[~/about]
+│
+├─▸ Cybersecurity enthusiast focused on offensive security,
+│   security research, and real-world attack & defense concepts.
+│
+├─▸ Building cybersecurity tools, automation utilities,
+│   and security-focused applications.
+│
+├─▸ Exploring penetration testing, vulnerability research,
+│   network security, OSINT, and adversary techniques.
+│
+├─▸ Passionate about Python, Linux, system internals,
+│   and developing practical security tooling.
+│
+├─▸ Active on Hack The Box & TryHackMe, continuously
+│   sharpening practical security skills.
+│
+└─▸ Mission: Learn → Build → Break → Secure
+```
+
+> **"Curiosity drives the research. Building turns knowledge into capability."**
